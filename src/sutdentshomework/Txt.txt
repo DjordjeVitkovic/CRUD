@@ -1,0 +1,34 @@
+Preko konzole kreiramo, citamo, menjamo i brisemo studente u bazu. CRUD
+
+Dinamicki unos, u do while petlji, gde kada unesemo broj za exit izlazi iz programa.
+
+1. Factory (ime confi fajla ) 
+2. Session. getCurrentSession
+3. session.beginTransaction
+
+sout    "sta zelite bla bla"
+
+while(unos != 1,2,3,4,5)
+    sout  "nepostojaca opcija"
+
+    do{
+4. Pravim uslove unosa skenera
+    1.kreirati studenta
+        1.1 Ime Prezime jmbg city, ID(AI)
+        dodeljujem vrednosti preko setera.
+
+    2.procitati, pogledati info od studenta
+        2.1toString metoda studenta iz uslova...
+
+    3.menjam studenta, fildove
+        3.1 Menjam studenta biram koje polje zelim da mu izmenim i to uradim
+
+    4.brisem studenta
+
+    5.exit
+
+    }while(unos != exit)
+
+5. session.getTransaction.commit
+6.factory.close
+    -sc.close
